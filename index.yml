@@ -22,19 +22,233 @@ files:
 
       <html lang=\"en\">\r
 
-      \  <head>\r
+      \r
+
+      <head>\r
 
       \    <meta charset=\"utf-8\">\r
 
-      \    <title>Marquee</title>\r
+      \    <title>Scroll Direction</title>\r
 
-      \  </head>\r
+      </head>\r
 
-      \  <body>\r
+      \r
 
-      \    <marquee>Here is some horizontally scrolling text</marquee>\r
+      <body>\r
 
-      \  </body>\r
+      \    <marquee direction=\"left\">\r
+
+      \        This text will scroll from right to left\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee direction=\"right\">\r
+
+      \        This text will scroll from left to right\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee direction=\"up\">\r
+
+      \        This text will scroll from bottom to top\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee direction=\"down\">\r
+
+      \        This text will scroll from top to bottom\r
+
+      \    </marquee>\r
+
+      </body>\r
+
+      \r
+
+      </html>"
+  - path: course1/unit1/lesson1/lessonpart3/index.html
+    content: "<!DOCTYPE html>\r
+
+      <html lang=\"en\">\r
+
+      \r
+
+      <head>\r
+
+      \    <meta charset=\"utf-8\">\r
+
+      \    <title>Scroll Speed</title>\r
+
+      </head>\r
+
+      \r
+
+      <body>\r
+
+      \    <marquee scrollamount=\"100\" scrolldelay=\"1000\">\r
+
+      \        This text will move at a speed of 100 pixels per second\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee scrollamount=\"100\">\r
+
+      \        This text will move fast\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee scrolldelay=\"1000\">\r
+
+      \        This text will move slow\r
+
+      \    </marquee>\r
+
+      </body>\r
+
+      \r
+
+      </html>"
+  - path: course1/unit1/lesson1/lessonpart4/index.html
+    content: "<!DOCTYPE html>\r
+
+      <html lang=\"en\">\r
+
+      \r
+
+      <head>\r
+
+      \    <meta charset=\"utf-8\">\r
+
+      \    <title>Scroll Behaviors</title>\r
+
+      </head>\r
+
+      \r
+
+      <body>\r
+
+      \    <marquee behavior=\"slide\">\r
+
+      \        This text will slide in and then stop\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee behavior=\"alternate\">\r
+
+      \        This text will bounce left and right\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee behavior=\"alternate\" direction=\"down\" height=\"50px\">\r
+
+      \        This text will bounce up and down\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee behavior=\"alternate\" width=\"200px\">\r
+
+      \        This text will bounce left and right within 200px\r
+
+      \    </marquee>\r
+
+      </body>\r
+
+      \r
+
+      </html>"
+  - path: course1/unit1/lesson1/lessonpart5/index.html
+    content: "<!DOCTYPE html>\r
+
+      <html lang=\"en\">\r
+
+      \r
+
+      <head>\r
+
+      \    <meta charset=\"utf-8\">\r
+
+      \    <title>Scroll Behaviors</title>\r
+
+      </head>\r
+
+      \r
+
+      <body>\r
+
+      \    <marquee\r
+
+      \        behavior=\"alternate\"\r
+
+      \        width=\"100px\"\r
+
+      \        style=\"border: 1px solid black\"\r
+
+      \    >\r
+
+      \        <marquee\r
+
+      \            behavior=\"alternate\" \r
+
+      \            direction=\"down\"\r
+
+      \            height=\"100px\"\r
+
+      \        >\r
+
+      \            DVD\r
+
+      \        </marquee>\r
+
+      \    </marquee>\r
+
+      \r
+
+      \    <marquee\r
+
+      \        behavior=\"slide\"\r
+
+      \        direction=\"right\"\r
+
+      \        width=\"100px\"\r
+
+      \        style=\"border: 1px solid black\"\r
+
+      \    >\r
+
+      \        <marquee\r
+
+      \            behavior=\"slide\" \r
+
+      \            direction=\"down\"\r
+
+      \            height=\"100px\"\r
+
+      \        >\r
+
+      \            SLIDE\r
+
+      \        </marquee>\r
+
+      \    </marquee>\r
+
+      </body>\r
+
+      \r
 
       </html>"
 units:

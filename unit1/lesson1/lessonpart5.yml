@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart5
+title: Nesting Marquee Tags
+content: >
+  All of our animations so far have travelled in one direction. However, what if
+  we wanted to move diagonally? Or maybe we want the text to bounce left and
+  right while sliding in from the top of the screen? Luckily, we can combine
+  marquee tags by nesting them to create even more ridiculous animations!
+
+
+  ### Example 1: DVD Logo
+
+
+  In this example, let's create a class DVD logo animation where some text
+  bounces around in a box. This animation happens in two directions: the text
+  bounces both from the top of the box to the bottom and from the left to the
+  right. We can make this happen using marquee tags by using two tags with the
+  **alternate** behavior set!
+
+
+  Because we want this to happen within a given box, we'll also be using the
+  **width** and\* \***height** attributes to control the size of the two marquee
+  tags. We'll set the **width** on the tag that controls the left-right
+  bouncing, and the **height** on the tag that controls the up-down bouncing.
+
+
+  Finally, we'll set a border on the outer marquee so that we can see the bounds
+  of our box!
+
+
+  ```html
+
+  <marquee
+    behavior="alternate"
+    width="100px"
+    style="border: 1px solid black"
+  >
+    <marquee
+      behavior="alternate"
+      direction="down"
+      height="100px"
+    >
+      DVD
+    </marquee>
+  </marquee>
+
+  ```
+
+
+  ### Example 2: Diagonal Slide
+
+
+  Let's modify our DVD example to create a **slide** animation from the top-left
+  corner of our box to the bottom-right. All we need to do is change the
+  behavior of both marquee tags from **alternate** to **slide** and give the
+  outer marquee a **direction** of "right":
+
+
+  ```html
+
+  <marquee
+    behavior="slide"
+    direction="right"
+    width="100px"
+    style="border: 1px solid black"
+  >
+    <marquee
+      behavior="slide"
+      direction="down"
+      height="100px"
+    >
+      SLIDE
+    </marquee>
+  </marquee>
+
+  ```
+
+
+  Because we're using two **slide** tags, this animation will only play once.
+  Try messing around with different combinations of marquee tags to see what
+  other effects you can create!
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart5/index.html

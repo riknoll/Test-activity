@@ -1,52 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lessonpart2
-title: Scroll Direction
+id: lessonpart3
+title: Scroll Speed
 content: >+
-  The default behavior of a marquee tag is to endlessly scroll text across the
-  page from the right side to the left side.
-
-
-  ```html
-
-  <marquee>This text will scroll from right to left</marquee>
-
-  ```
-
-
-  But what if you want to scroll the text in a different direction? Well, that's
-  exactly what the  **direction** attribute is for! You can use this attribute
-  to specify the direction the text will travel across the page. The default
-  value for this attribute is "left", but you can use any of the cardinal
-  directions to switch things up!
-
-
-  ```html
-
-  <marquee direction="left">
-    This text will scroll from right to left
-  </marquee>
-
-
-  <marquee direction="right">
-    This text will scroll from left to right
-  </marquee>
-
-
-  <marquee direction="up">
-    This text will scroll from bottom to top
-  </marquee>
-
-
-  <marquee direction="down">
-    This text will scroll from top to bottom
-  </marquee>
-
-  ```
-
-
-  ## Controlling speed
-
-
   In addition to direction, you can also control the speed of the animation for
   marquee tags using attributes!
 
@@ -97,9 +52,6 @@ content: >+
   lower delay time, most browsers limit the delay value to a minimum of 60
   milliseconds!
 
-
-  <br />
-
 showEditor: true
 editors:
-  - course1/unit1/lesson1/lessonpart2/index.html
+  - course1/unit1/lesson1/lessonpart3/index.html

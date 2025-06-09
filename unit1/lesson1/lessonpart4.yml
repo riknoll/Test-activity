@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Scroll Behavior
+content: >
+  Each marquee tag also has a **behavior** attribute which can be used to
+  control the type of animation for its contents. There are three types of
+  marquee behavior:
+
+
+  * **Scroll** -  the text scrolls from the beginning to the end of the
+  animation area and then loops back to the start
+
+
+  * **Slide** - the text scrolls to the end of the animation area and then stops
+
+
+  * **Alternate** - the text scrolls from the beginning to the end of the
+  animation area and then reverses direction
+
+
+  So far, all of the marquee animations we've looked at have been using the
+  **scroll** behavior, which is the default.
+
+
+  <br />
+
+
+  ### Slide
+
+
+  The **slide** behavior is useful as an intro animation for some content. This
+  animation will play only *once.*
+
+
+  ```html
+
+  <marquee behavior="slide">
+    This text will slide in and then stop
+  </marquee>
+
+  ```
+
+
+  ### Alternate
+
+
+  The **alternate** behavior is useful to create animations where text bounces
+  back and forth:
+
+
+  ```html
+
+  <marquee behavior="alternate">
+    This text will bounce back and forth
+  </marquee>
+
+  ```
+
+
+  ### Width and Height
+
+
+  Let's try to use the\*\* alternate \*\*behavior with some text that scrolls in
+  the "down" **direction**:
+
+
+  ```html
+
+  <marquee behavior="alternate" direction="down">
+    Bounce
+  </marquee>
+
+  ```
+
+
+  We would expect this text to bounce up and down, but if you run this code the
+  text won't move at all. That's because the size of the animation area is the
+  same as the height of the text. If we want the text to move, we'll need to set
+  the **height** of the marquee to something that's taller than text like so:
+
+
+  ```html
+
+  <marquee behavior="alternate" direction="down" height="30px">
+    Bounce
+  </marquee>
+
+  ```
+
+
+  We can also use the **width** attribute to limit the width of animations in
+  the "left" and "right" directions:
+
+
+  ```html
+
+  <marquee behavior="alternate" direction="right" width="100px">
+    Bounce
+  </marquee>
+
+  ```
+
+
+  The **width** and **height** attributes works for *all* behavior types, not
+  just alternate! Try different combinations and see what happens!
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart4/index.html
