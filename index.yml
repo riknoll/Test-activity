@@ -11,6 +11,7 @@ description: >-
 
   ...but what if you want to make a website that *nobody* wants to use? This
   course aims to teach you the lost techniques of making cursed websites.
+prerequisites: Basic HTML skills
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 contacts:
   - displayName: Richard Knoll

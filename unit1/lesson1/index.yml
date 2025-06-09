@@ -6,8 +6,13 @@ description: >-
   Those people are WRONG. They just don't understand your vision.
 
 
-  Learn to make text that scrolls, buttons that run away from the user, and more
-  with our first cursed technique!
+  Learn to make text that scrolls across the screen, buttons that run away from
+  the mouse's cursor, and more all by using the marquee tag!
+objectives: |-
+  Learn about what the marquee tag does
+  Customize marquee animations using direction, speed, and behavior
+  Nest marquee tags to create complex animations
+  Create a simple clicker game that uses marquee tags to spice things up!
 lessonParts:
   - lessonpart1.yml
   - lessonpart2.yml
