@@ -1,5 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson1
-title: Lesson 1
+title: "Cursed Technique 1: The Marquee Tag"
+description: >-
+  Some people will tell you that nobody should use the marquee tag anymore.
+  Those people are WRONG. They just don't understand your vision.
+
+
+  Learn to make text that scrolls, buttons that run away from the user, and more
+  with our first cursed technique!
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

@@ -1,11 +1,41 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
-title: Test activity
+title: Cursed web techniques 101
 level: beginner
+description: >-
+  Most courses about web design try to teach you the RIGHT way to do things. Any
+  old course can teach you how to make websites easy to navigate, have clear
+  content, and use the latest web features to make sure everything looks nice on
+  all devices.
+
+
+  ...but what if you want to make a website that *nobody* wants to use? This
+  course aims to teach you the lost techniques of making cursed websites.
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 contacts:
   - displayName: Richard Knoll
     pictureUrl: https://avatars.githubusercontent.com/u/13754588?v=4
     homePageUrl: https://github.com/riknoll
+files:
+  - path: course1/unit1/lesson1/lessonpart2/index.html
+    content: "<!DOCTYPE html>\r
+
+      <html lang=\"en\">\r
+
+      \  <head>\r
+
+      \    <meta charset=\"utf-8\">\r
+
+      \    <title>Marquee</title>\r
+
+      \  </head>\r
+
+      \  <body>\r
+
+      \    <marquee>Here is some horizontally scrolling text</marquee>\r
+
+      \  </body>\r
+
+      </html>"
 units:
   - unit1/index.yml

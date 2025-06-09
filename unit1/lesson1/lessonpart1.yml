@@ -1,5 +1,28 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Page 1
-content: |
-  Do something cool!
+title: Introduction
+content: >
+  # What even is a marquee?
+
+
+  Have you ever been to an old theater? Y'know, the kind that has a big sign
+  above the entrance that advertises whatever current show is playing? That sign
+  is called a "marquee"!
+
+
+  Marquees are designed to grab the attention of people who are passing by so as
+  to sell tickets for the theater. As a result, the builders of these signs came
+  up with all sorts of ways to make them hard to ignore. You'll often see
+  marquees that are surrounded by big flashing light bulbs that animate with
+  different patterns. Or maybe they'll scroll the text across a screen from
+  different directions so that the movement catches your eye. Whatever the case,
+  theaters with elaborate marquees are often treated as historic landmarks in
+  cities because of their beautiful designs!
+
+
+  So what does this have to do with websites? Well, back when people were
+  deciding what kinds of tags should be added to the HTML specification, some
+  luminary decided that a website might want to have a built in way to make text
+  that grabs your attention just like on one of those marquee signs of
+  yesteryear. As a result, we were given one of the most misunderstood
+  techniques that you can add to your HTML arsenal: the `<marquee />` tag!
