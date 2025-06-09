@@ -55,3 +55,45 @@ content: >+
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart3/index.html
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: What will happen to the speed of the marquee animation if the
+          scrolldelay is increased?
+        options:
+          - id: "1"
+            value: The speed will decrease.
+            explanation: Increasing scrolldelay results in a lower animation speed.
+            isCorrect: true
+          - id: "2"
+            value: The speed will increase.
+            explanation: Increasing scrolldelay actually decreases the speed.
+          - id: "3"
+            value: The speed will remain the same.
+            explanation: Changing scrolldelay affects the speed of the animation.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: choice
+        content: What scrollamount and scrolldelay values are needed to achieve a speed
+          of 30 pixels per second?
+        options:
+          - id: "1"
+            value: scrollamount="30" scrolldelay="1000"
+            explanation: A scrollamount of 30 and a scrolldelay of 1000 milliseconds results
+              in a speed of 30 pixels per second.
+            isCorrect: true
+          - id: "2"
+            value: scrollamount="30" scrolldelay="1"
+            explanation: This combination results in a speed of 30 pixels per 500
+              milliseconds, which is faster than 30 pixels per second.
+          - id: "3"
+            value: scrollamount="1000" scrolldelay="30"
+            explanation: This combination results in a speed of 30 pixels per second, but
+              the scrolldelay is unnecessarily long.
+          - id: "4"
+            value: scrollamount="3000" scrolldelay="10"
+            explanation: This combination results in a speed of 10 pixels per 300
+              milliseconds, which is faster than 30 pixels per second.
