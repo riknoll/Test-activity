@@ -251,5 +251,73 @@ files:
       \r
 
       </html>"
+  - path: course1/unit1/lesson1/lessonpart6/script.js
+    content: "// This variable will store the number of times the buttons has\r
+
+      // been clicked\r
+
+      let numClicks = 0;\r
+
+      \r
+
+      // We need to wait for the DOMContentLoaded event to fire\r
+
+      // before we can access the elements in the page\r
+
+      document.addEventListener(\"DOMContentLoaded\", () => {\r
+
+      \    // Look up both of the elements from the DOM. The ids\r
+
+      \    // below need to match the ids in index.html\r
+
+      \    let button = document.getElementById(\"clicker\");\r
+
+      \    let clickDisplay = document.getElementById(\"number\");\r
+
+      \r
+
+      \    // Add an event listener to our button to increment our\r
+
+      \    // variable and set the text of our click display\r
+
+      \    button.addEventListener(\"click\", () => {\r
+
+      \        numClicks = numClicks + 1;\r
+
+      \        clickDisplay.textContent = numClicks;\r
+
+      \    });\r
+
+      });"
+  - path: course1/unit1/lesson1/lessonpart6/index.html
+    content: "<!DOCTYPE html>\r
+
+      <html lang=\"en\">\r
+
+      \r
+
+      <head>\r
+
+      \    <meta charset=\"utf-8\">\r
+
+      \    <title>Cursed clicker</title>\r
+
+      \    <script src=\"./script.js\"></script>\r
+
+      </head>\r
+
+      \r
+
+      <body>\r
+
+      \    <button id=\"clicker\">click me</button>\r
+
+      \    <div id=\"number\">0</div>\r
+
+      </body>\r
+
+      \r
+
+      </html>"
 units:
   - unit1/index.yml

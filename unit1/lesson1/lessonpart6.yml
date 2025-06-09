@@ -1,3 +1,22 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart6
-title: Page
+title: Animating Non-Text Elements
+content: >
+  I know what you're thinking: "Sure these marquee animations look a little
+  cheesy, but they're not exactly cursed". Well you're right, the animations in
+  this lesson so far have been a little tame. However, there's a simple strategy
+  that can really unlock the potential of our first cursed technique: putting
+  non-text elements inside of marquee tags.
+
+
+  Imagine a button that actively runs away from the pointer trying to click it
+  or an image that never stops moving. This is the true power of marquee tags!
+
+
+  To demonstrate this, let's create a simple clicker type game with a button
+  that isn't too easy to click. We'll start out with some basic code to make a
+  button that increases a number each time it's clicked
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart6/script.js
+  - course1/unit1/lesson1/lessonpart6/index.html
