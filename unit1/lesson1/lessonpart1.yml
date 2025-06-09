@@ -21,8 +21,14 @@ content: >
 
 
   So what does this have to do with websites? Well, back when people were
-  deciding what kinds of tags should be added to the HTML specification, some
-  luminary decided that a website might want to have a built in way to make text
-  that grabs your attention just like on one of those marquee signs of
-  yesteryear. As a result, we were given one of the most misunderstood
-  techniques that you can add to your HTML arsenal: the `<marquee />` tag!
+  deciding what kinds of tags should be added to the HTML specification, someone
+  decided that a website might want to have a built in way to make text that
+  grabs your attention just like on one of those marquee signs. As a result, we
+  were given one of the most misunderstood techniques that you can add to your
+  HTML arsenal: the `<marquee />` tag!
+
+
+  By default, the marquee tag just makes text scroll across the screen from
+  right to left. However, it's capable of a whole lot more! This lesson will
+  walk you through all the ways you can use marquee tags to make things move
+  around the screen
