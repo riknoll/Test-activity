@@ -106,3 +106,36 @@ content: >
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart4/index.html
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: Which marquee behavior causes the text to bounce back and forth?
+        options:
+          - id: "1"
+            value: Alternate
+            explanation: The alternate behavior makes the text bounce back and forth.
+            isCorrect: true
+          - id: "2"
+            value: Scroll
+            explanation: The scroll behavior makes the text loop from start to end.
+          - id: "3"
+            value: Slide
+            explanation: The slide behavior makes the text scroll to the end and stop.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: choice
+        content: Which marquee behavior causes an animation that only plays once?
+        options:
+          - id: "1"
+            value: Scroll
+            explanation: Scroll behavior loops the animation back to the start.
+          - id: "2"
+            value: Slide
+            explanation: Slide behavior causes the animation to play only once.
+            isCorrect: true
+          - id: "3"
+            value: Alternate
+            explanation: Alternate behavior reverses direction and continues.
