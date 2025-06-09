@@ -8,11 +8,4 @@ contacts:
     pictureUrl: https://avatars.githubusercontent.com/u/13754588?v=4
     homePageUrl: https://github.com/riknoll
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml
